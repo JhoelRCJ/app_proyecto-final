@@ -1,0 +1,67 @@
+name: stoody
+description: Onlayn təhsilin yeni növü.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^4.1.0
+  firebase_core: ^2.1.1
+  font_awesome_flutter: ^10.2.1
+  google_sign_in: ^5.4.2
+  firebase_storage: ^11.0.3
+  introduction_screen: ^3.0.2
+  flutter_feather_icons: ^2.0.0
+  share_plus: ^6.2.0
+  get: ^4.6.5
+  # dio: ^4.0.6
+  url_launcher: ^6.1.6
+  lightbox: ^0.1.0
+  chewie: ^1.3.5
+  video_player: ^2.4.7
+  flutter_secure_storage: ^6.0.0
+  firebase_messaging: ^14.1.0
+  flutter_launcher_icons: ^0.10.0
+  http: ^0.13.5
+  image_picker: ^0.8.6
+  flutter_svg: ^1.1.6
+  getwidget: ^3.0.1
+  audio_service: ^0.18.7
+  flutter_slidable: ^1.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_driver:
+    sdk: flutter
+  build_runner: ^2.3.2
+
+# Launcher Icon
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/stoodylogo.png"
+  min_sdk_android: 20 # android min sdk min:16, default 21
+  web:
+    generate: false
+  windows:
+    generate: false
+  
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+    - assets/images/stoodylogo.png
+    - assets/images/thanksicon.png
+    - assets/images/erroricon.png
+    - assets/images/cuate.png
+    - assets/images/bottombaricons/
+    - assets/images/bottombaricons/learning/

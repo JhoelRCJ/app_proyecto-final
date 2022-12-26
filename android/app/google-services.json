@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377000242854",
+    "firebase_url": "https://stoody-74c04-default-rtdb.firebaseio.com",
+    "project_id": "stoody-74c04",
+    "storage_bucket": "stoody-74c04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377000242854:android:91736662bb1fbd314b8e67",
+        "android_client_info": {
+          "package_name": "com.globalmart.stoody"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377000242854-ht9osf8l59fj4gcldi77j61srki29j7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5u7x2aL35QDlNk97bCqsugp02MjS5UOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377000242854-ht9osf8l59fj4gcldi77j61srki29j7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
